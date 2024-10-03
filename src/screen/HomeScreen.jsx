@@ -8,6 +8,7 @@ import Testimonials from "../components/sections/Testimonials";
 import Blog from "../components/sections/Blog";
 import CallToAction from "../components/sections/CallToAction";
 import Footer from "../components/sections/Footer";
+import CustomerView from "../components/sections/CustomerView";
 
 const HomeScreen = () => {
   return (
@@ -19,6 +20,7 @@ const HomeScreen = () => {
         <Services />
         <Features />
         <Testimonials />
+        <CustomerView />
         <Blog />
         <CallToAction />
       </div>
