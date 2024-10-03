@@ -13,7 +13,7 @@ import CustomerView from "../components/sections/CustomerView";
 const HomeScreen = () => {
   return (
     <>
-      <div className="flex flex-col self-stretch pb-20 pl-20 w-full bg-white max-md:pl-5 max-md:max-w-full">
+      <div className="flex flex-col self-stretch pb-20 w-full bg-primary max-md:pl-5 max-md:max-w-full px-[60px] py-[35px]">
         <Header />
         <Hero />
         <Partners />
