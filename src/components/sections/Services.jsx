@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceCard from "../components/ui/ServiceCard";
+import ServiceCard from "../ui/ServiceCard";
 
 const Services = () => {
   const services = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import PartnerLogo from '../components/ui/PartnerLogo';
+import PartnerLogo from '../ui/PartnerLogo';
 
 const Partners = () => {
   const partners = [

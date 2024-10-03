@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Partners from "../components/Partners";
-import Services from "../components/Services";
-import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
-import Blog from "../components/Blog";
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
+import Header from "../components/sections/Header";
+import Hero from "../components/sections/Hero";
+import Partners from "../components/sections/Partners";
+import Services from "../components/sections/Services";
+import Features from "../components/sections/Features";
+import Testimonials from "../components/sections/Testimonials";
+import Blog from "../components/sections/Blog";
+import CallToAction from "../components/sections/CallToAction";
+import Footer from "../components/sections/Footer";
 
 const HomeScreen = () => {
   return (
