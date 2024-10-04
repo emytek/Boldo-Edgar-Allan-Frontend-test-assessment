@@ -118,7 +118,7 @@ const Navigation = () => {
           href="#product"
           className="self-stretch my-auto leading-7 text-neutral"
         >
-          Product
+          Product:
         </a>
         <a
           href="#services"
