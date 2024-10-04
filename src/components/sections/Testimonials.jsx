@@ -21,10 +21,12 @@ const Testimonials = () => {
   ];
 
   return (
+    <>
+    <div className="flex flex-col self-stretch pb-20 w-full bg-primary max-md:pl-5 max-md:max-w-full px-[60px] py-[35px]">
     <section className="flex flex-col items-end self-stretch px-20 py-28 mt-72 w-full bg-sky-950 max-md:px-5 max-md:pt-24 max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-wrap gap-5 justify-between items-start w-full text-5xl text-white leading-[72px] max-w-[1150px] max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">
         <h2 className="self-start max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">
-          An enterprise template to ramp up your company website
+          An enterprise template to ramp up your company website?
         </h2>
         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e7cb99da148c4f968a42791dea115d17f341c28d6903d9be12c7cfde62698625?placeholderIfAbsent=true&apiKey=a7a9723fd7c8498da90b21ba26986bcf" alt="Decorative element" className="object-contain shrink-0 self-end mt-16 max-w-full aspect-[2.36] w-[172px] max-md:mt-10" />
       </div>
@@ -36,6 +38,8 @@ const Testimonials = () => {
         </div>
       </div>
     </section>
+    </div>
+    </>
   );
 };
 

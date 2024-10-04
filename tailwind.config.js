@@ -10,14 +10,8 @@ export default {
       primary: '#0A2640', 
       secondary: '#69E6A6',
       neutral: '#FFFFFF',
+      gray: '	#909090'
     },
-    // spacing: {
-    //   'sc': '4rem',
-    //   'sg': '2.5rem',
-    //   's': '2rem',
-    //   's1': '1rem',
-    //   'xs': '0.5rem',
-    // },
   },
   plugins: [],
 }

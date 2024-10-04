@@ -9,8 +9,8 @@ const Partners = () => {
     { name: 'Presto', type: 'image', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/noun_Pie_Chart_4196192_1_2_f0zbli.png' },
     { name: 'Boldo', type: 'text', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/Logo_Shape_2_hbwy8h.png' },
     { name: 'Presto', type: 'image', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/noun_Pie_Chart_4196192_1_2_f0zbli.png' },
-    { name: 'Boldo', type: 'text', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/Logo_Shape_2_hbwy8h.png' },
-    { name: 'Pres', type: 'image', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/noun_Pie_Chart_4196192_1_2_f0zbli.png' },
+    // { name: 'Boldo', type: 'text', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/Logo_Shape_2_hbwy8h.png' },
+    // { name: 'Pres', type: 'image', src: 'https://res.cloudinary.com/dawcdhbhs/image/upload/v1728028987/noun_Pie_Chart_4196192_1_2_f0zbli.png' },
   ];
 
   const partnersMobile = [
@@ -19,7 +19,7 @@ const Partners = () => {
   ];
 
   return (
-    <div className="w-full max-w-[1119px] min-h-[42px] self-center pt-20 pl-12">
+    <div className="w-full min-h-[42px] self-center pt-20 pl-14">
       {/* Large Devices */}
       <div className="hidden md:flex gap-20 items-start">
         {partners.map((partner, index) => (

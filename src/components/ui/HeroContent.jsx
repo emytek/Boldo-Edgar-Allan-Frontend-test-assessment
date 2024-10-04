@@ -4,7 +4,7 @@ const HeroContent = () => {
   return (
     <div className="flex flex-col self-stretch pt-2 pr-5 my-auto text-base min-w-[240px] rounded-[56px] w-[601px] max-md:max-w-full pb-4">
       <h1 className="mt-9 text-5xl text-neutral leading-[72px] max-md:mr-2.5 max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">
-        Save time by building fast with Boldo Template
+        Save time by building fast with Boldo Template!
       </h1>
       <p className="mt-5 leading-7 max-md:max-w-full text-neutral">
         Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.
