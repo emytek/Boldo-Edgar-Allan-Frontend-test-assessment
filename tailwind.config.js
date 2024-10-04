@@ -11,6 +11,13 @@ export default {
       secondary: '#69E6A6',
       neutral: '#FFFFFF',
     },
+    // spacing: {
+    //   'sc': '4rem',
+    //   'sg': '2.5rem',
+    //   's': '2rem',
+    //   's1': '1rem',
+    //   'xs': '0.5rem',
+    // },
   },
   plugins: [],
 }
