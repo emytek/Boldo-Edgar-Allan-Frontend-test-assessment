@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeatureContent = ({ title, items, buttonText }) => {
+export const FeatureContent = ({ title, items, buttonText }) => {
   return (
     <div className="flex flex-col mt-16 w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col max-w-full w-[493px]">
@@ -25,4 +25,15 @@ const FeatureContent = ({ title, items, buttonText }) => {
   );
 };
 
-export default FeatureContent;
+export const NextFeatureContent = ({ title }) => {
+    return (
+      <div className="flex flex-col mt-16 w-full max-md:mt-10 max-md:max-w-full pb-20">
+        <div className="flex flex-col max-w-full w-[493px]">
+          <div className="flex flex-col max-md:max-w-full">
+            <h2 className="text-4xl text-black leading-[56px] max-md:max-w-full">{title}</h2>
+          </div>
+        </div>
+      </div>
+    );
+};
+

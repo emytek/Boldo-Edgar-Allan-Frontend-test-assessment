@@ -14,10 +14,10 @@ const ServiceCard = ({ image, title, description }) => {
         <h3 className="w-full text-2xl text-white">{title}</h3>
         <div className="flex flex-col mt-5 max-w-full leading-9">
           <div className="">
-            <p className='text-gray'>
+            <p className='text-gray text-xl'>
             Learning curve network effects
             <br />
-           return on investments
+           return on investments.
             </p>
             <div className="flex gap-3 items-start text-left self-stretch my-auto mt-6">
             <p className='text-xl font-bold'>{description}</p>

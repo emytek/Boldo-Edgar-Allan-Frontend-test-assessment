@@ -35,7 +35,7 @@ const Services = () => {
           </div>
         </div>
         <div className="mt-20 max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col">
+          <div className="flex gap-8 lg:gap-24 max-md:flex-col">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

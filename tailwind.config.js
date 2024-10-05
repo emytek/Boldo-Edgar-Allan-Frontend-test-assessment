@@ -10,7 +10,8 @@ export default {
       primary: '#0A2640', 
       secondary: '#69E6A6',
       neutral: '#FFFFFF',
-      gray: '	#909090'
+      gray: '#808080',
+      red: 'red'
     },
   },
   plugins: [],
