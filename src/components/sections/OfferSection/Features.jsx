@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatureSection from '../ui/FeatureSection';
+import FeatureSection from '../../ui/FeatureSection';
 
 const Features = () => {
   const features = [

@@ -1,5 +1,5 @@
 import React from "react";
-import BlogPost from "../ui/BlogPost";
+import BlogPost from "../../ui/BlogPost";
 
 const Blog = () => {
   const blogPosts = [

@@ -40,7 +40,7 @@ const FeatureSection = ({ index, title, imgUrl, items, buttonText, imageSrc }) =
           </div>
         </div>
       ) : (
-        <div className="flex gap-8 lg:gap-16 lg:pl-40 max-md:flex-col md:mt-24 lg:mt-14">
+        <div className="flex gap-8 lg:pl-40 max-md:flex-col md:mt-24 lg:mt-14">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <NextFeatureContent title={title} />
             {featuresData.map((feature, index) => (

@@ -1,7 +1,7 @@
 import React from 'react'
-import CustomerView from '../CustomerView'
-import Blog from '../Blog'
-import CallToAction from '../CallToAction'
+import CustomerView from './CustomerView'
+import Blog from './Blog'
+import CallToAction from './CallToAction'
 import Footer from '../../layout/Footer'
 
 const EngagementSection = () => {
