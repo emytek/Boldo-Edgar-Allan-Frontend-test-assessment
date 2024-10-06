@@ -27,7 +27,7 @@ const FeatureSection = ({ index, title, imgUrl, items, buttonText, imageSrc }) =
   return (
     <>
       {index === 0 ? (
-        <div className="flex gap-12 lg:gap-28 lg:pl-40 max-md:flex-col">
+        <div className="flex gap-8 lg:gap-28 lg:pl-40 max-md:flex-col">
           <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full min-w-[240px] w-[594px] lg:pb-4">
             <FeatureImage src={imageSrc} />
           </div>

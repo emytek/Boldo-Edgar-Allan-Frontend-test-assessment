@@ -5,7 +5,7 @@ export const FeatureContent = ({ title, items, buttonText }) => {
     <div className="flex flex-col mt-16 w-full max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col max-w-full w-[493px]">
         <div className="flex flex-col max-md:max-w-full">
-          <h2 className="text-4xl text-black leading-[56px] max-md:max-w-full">{title}</h2>
+          <h2 className="text-4xl text-black leading-[56px] max-md:max-w-full max-md:text-2xl">{title}</h2>
           <ul className="flex flex-col mt-10 w-full text-xl leading-relaxed text-black">
             {items.map((item, index) => (
               <li key={index} className="flex gap-7 py-px mt-6 max-w-full w-[450px]">

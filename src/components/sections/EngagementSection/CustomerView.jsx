@@ -4,17 +4,18 @@ import WorkSummary from "../../ui/WorkSummary";
 const CustomerView = () => {
   return (
     <>
-    <div className="w-full flex justify-center items-center py-8 px-4 lg:px-16">
-      <img
-        src="/images/customer-view.png"
-        alt="Responsive"
-        className="w-full max-w-6xl object-cover rounded-lg shadow-lg"
-      />
-    </div>
+      <div className="w-full flex justify-center items-center py-8 px-4 lg:px-16">
+        <img
+          src="/images/customer-view.png"
+          alt="Responsive"
+          className="w-full sm:w-12/12 lg:w-11/12 object-cover rounded-lg shadow-lg"
+        />
+      </div>
 
-    <WorkSummary />
+      <WorkSummary />
     </>
   );
 };
 
 export default CustomerView;
+

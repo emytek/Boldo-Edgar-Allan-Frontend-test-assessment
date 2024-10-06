@@ -38,24 +38,24 @@ const Blog = () => {
   ];
 
   return (
-    <section className="mt-40 max-w-full w-[842px] max-md:mt-10">
-      <h2 className="text-xl leading-relaxed text-neutral-500 text-center">
-        Our Blog
-      </h2>
-      <div className="mt-3 text-5xl text-center text-black leading-[72px] max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">
-        Value proposition accelerator product management venture
+    <section className="mt-40 lg:w-10/12 max-md:mt-10 xl:pl-44">
+    <h2 className="text-xl leading-relaxed text-neutral-500 text-center">
+      Our Blog 
+    </h2>
+    <div className="mt-3 text-5xl text-center text-black leading-[72px] max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">
+      Value proposition accelerator product <br />management venture
+    </div>
+    <div className="mt-20 w-full max-md:mt-10 max-md:max-w-full">
+      <div className="flex gap-14 max-md:flex-col">
+        {blogPosts.map((post, index) => (
+          <BlogPost key={index} {...post} />
+        ))}
       </div>
-      <div className="mt-20 w-full max-w-[998px] max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col">
-          {blogPosts.map((post, index) => (
-            <BlogPost key={index} {...post} />
-          ))}
-        </div>
-      </div>
-      <button className="gap-2 self-stretch px-14 py-4 mt-20 text-xl font-bold leading-snug border-2 border-solid border-sky-950 rounded-[56px] text-sky-950 max-md:px-5 max-md:mt-10">
-        Load more
-      </button>
-    </section>
+    </div>
+    <button className="gap-2 self-stretch px-14 py-4 mt-20 text-xl font-bold leading-snug border-2 border-solid border-sky-950 rounded-[56px] text-sky-950 max-md:px-5 max-md:mt-10">
+      Load more
+    </button>
+  </section>
   );
 };
 

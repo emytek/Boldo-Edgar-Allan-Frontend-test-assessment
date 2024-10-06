@@ -3,8 +3,8 @@ import Logo from '../ui/Logo';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-start self-stretch px-20 py-28 mt-20 w-full bg-white max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
-      <div className="flex gap-5 justify-between items-start w-full max-w-[1070px] max-md:max-w-full">
+    <footer className="px-20 py-28 mt-20 w-full bg-white max-md:px-5 max-md:py-24 max-md:mt-10">
+      <div className="grid grid-cols-2 gap-5 justify-between items-start w-full max-w-[1070px] max-md:grid-cols-1 md:grid-cols-4 md:max-w-full">
         <div className="flex flex-col">
           <Logo />
           <p className="mt-11 text-base leading-7 text-neutral-500 max-md:mt-10">
@@ -42,7 +42,7 @@ const Footer = () => {
         </nav>
       </div>
       <p className="mb-0 text-base leading-7 text-neutral-500 max-md:mb-2.5">
-        All rights reserved.
+        All rights reserved?.
       </p>
     </footer>
   );

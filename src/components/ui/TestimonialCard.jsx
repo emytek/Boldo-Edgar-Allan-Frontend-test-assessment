@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialCard = ({ index, quote, author, role, imgUrl }) => {
     // Conditional height classes only for large screens
     const cardHeight =
-      index === 1 ? "lg:h-[380px]" : index === 2 ? "lg:h-[350px]" : "lg:h-[320px]";
+      index === 1 ? "xl:h-[380px]" : index === 2 ? "xl:h-[350px]" : "xl:h-[320px]";
   
     return (
       <div
@@ -26,9 +26,9 @@ const TestimonialCard = ({ index, quote, author, role, imgUrl }) => {
         </div>
       </div>
     );
-  };
+};
   
-  export default TestimonialCard;
+export default TestimonialCard;
 
 
 
