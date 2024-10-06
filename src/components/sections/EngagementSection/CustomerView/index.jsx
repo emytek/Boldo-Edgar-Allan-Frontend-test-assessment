@@ -1,5 +1,5 @@
 import React from "react";
-import WorkSummary from "../../ui/WorkSummary";
+import WorkSummary from "./ui/WorkSummary";
 
 const CustomerView = () => {
   return (

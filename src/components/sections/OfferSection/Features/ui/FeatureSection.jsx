@@ -1,8 +1,7 @@
 import React from "react";
-import { FeatureContent, NextFeatureContent } from "../features-ui/FeatureContent";
-import FeatureImage from "../features-ui/FeatureImage";
-import FeatureChart from "../features-ui/FeatureChart";
-import FeatureCard from "../features-ui/FeatureCard";
+import { FeatureContent, NextFeatureContent } from "./FeatureContent";
+import FeatureImage from "./FeatureImage";
+import FeatureCard from "./FeatureCard";
 
 const featuresData = [
   {

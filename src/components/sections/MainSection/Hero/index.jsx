@@ -1,6 +1,6 @@
 import React from 'react';
-import HeroContent from '../../ui/HeroContent';
-import HeroImage from '../../ui/HeroImage';
+import HeroContent from './ui/HeroContent';
+import HeroImage from './ui/HeroImage';
 
 const Hero = () => {
   return (
