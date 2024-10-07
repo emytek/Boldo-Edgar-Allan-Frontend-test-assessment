@@ -5,7 +5,7 @@ import { services } from "../../../../data/ServicesData";
 const Services = () => {
 
   return (
-    <section className="flex flex-col justify-center items-center self-stretch px-20 py-20 w-full bg-neutral max-md:px-5 max-md:max-w-full max-md:pl-12">
+    <section className="flex flex-col justify-center items-center self-stretch py-20 w-full bg-neutral max-md:px-5 max-md:max-w-full max-md:pl-12">
       <div className="flex flex-col w-full max-w-[1099px] max-md:max-w-full">
         <div className="flex flex-col justify-center items-center self-center max-w-full h-[184px] w-[842px]">
           <h2 className="text-xl leading-relaxed text-zinc-100 text-gray">
@@ -16,7 +16,7 @@ const Services = () => {
           </div>
         </div>
         <div className="mt-20 max-md:mt-4 max-md:max-w-full">
-          <div className="flex gap-8 lg:gap-24 max-md:flex-col">
+          <div className="flex gap-8 xl:gap-24 max-md:flex-col">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

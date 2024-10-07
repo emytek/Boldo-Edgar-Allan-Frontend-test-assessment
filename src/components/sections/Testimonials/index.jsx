@@ -26,7 +26,7 @@ const Testimonials = () => {
           <div className="mt-16 w-full max-md:mt-5 max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col">
               {testimonials.map((testimonial, index) => (
-                <TestimonialCard key={index} {...testimonial} index={index} />
+                <TestimonialCard key={index} {...testimonial} />
               ))}
             </div>
           </div>

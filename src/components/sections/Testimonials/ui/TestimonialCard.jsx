@@ -1,13 +1,10 @@
 import React from "react";
 
-const TestimonialCard = ({ index, quote, author, role, imgUrl }) => {
-    // Conditional height classes only for large screens
-    const cardHeight =
-      index === 1 ? "xl:h-[380px]" : index === 2 ? "xl:h-[350px]" : "xl:h-[320px]";
-  
+const TestimonialCard = ({ quote, author, role, imgUrl }) => {
+    
     return (
       <div
-        className={`flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-neutral rounded-2xl cursor-pointer ${cardHeight}`}
+        className={`flex flex-col w-[33%] max-md:ml-0 max-md:w-full bg-neutral rounded-2xl cursor-pointer`}
       >
         <div className="flex flex-col p-10 sm:mb-8 lg:mb-0 mx-auto w-full bg-white rounded-xl shadow-[0px_12px_32px_rgba(0,0,0,0.12)] max-md:px-5 max-md:mt-10">
           <p className="text-2xl leading-9 text-primary">
