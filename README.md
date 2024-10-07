@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 - To start, run: npm run dev
-
+- [See Updated live project](https://github.com/vitejs/vite-plugin-react-swc)
 ## Boldo-Edgar-Allan-Frontend-test-Assessment-Task
 ### Created with React, Vite and Tailwind css 
 ![Home screen UI Design](https://res.cloudinary.com/dawcdhbhs/image/upload/v1728292174/boldo_tqzhtb.png)
