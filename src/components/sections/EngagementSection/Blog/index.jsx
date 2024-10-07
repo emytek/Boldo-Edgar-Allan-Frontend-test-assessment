@@ -4,7 +4,7 @@ import { blogPosts } from "../../../../data/BlogData";
 
 const Blog = () => {
   return (
-    <section className="mt-40 lg:w-10/12 max-md:mt-10 xl:pl-44">
+    <section className="mt-40 lg:w-10/12 max-md:mt-10 xl:pl-24">
       <h2 className="text-xl leading-relaxed text-neutral-500 text-center">
         Our Blog
       </h2>

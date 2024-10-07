@@ -3,10 +3,9 @@ import Logo from "./ui/Logo";
 
 const Footer = () => {
   const footerNavLinkStyle = "pt-4 max-md:pt-2"
-  const hiringTextStyle = "block pt-4 max-md:pt-2"
 
   return (
-    <footer className="px-20 py-28 mt-20 w-full bg-white max-md:px-5 max-md:py-24 max-md:mt-10 xl:pl-40">
+    <footer className="px-20 py-28 mt-20 w-full bg-white max-md:px-5 max-md:py-24 max-md:mt-10 xl:pl-24">
       <div className="grid grid-cols-2 gap-5 justify-between items-start w-full max-w-[1070px] max-md:grid-cols-1 md:grid-cols-4 md:max-w-full">
         <div className="flex flex-col">
           <Logo

@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <section className="flex flex-col mt-32 w-full rounded-xl bg-primary lg:w-10/12 xl:ml-40 max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-col mt-32 w-full rounded-xl bg-primary lg:w-10/12 xl:ml-24 max-md:mt-10 max-md:max-w-full">
       <div className="flex relative flex-col justify-center items-center px-20 py-20 w-full rounded-none min-h-[391px] max-md:px-5 max-md:max-w-full">
         <img
           loading="lazy"
@@ -16,7 +16,7 @@ const CallToAction = () => {
           </h2>
           <form className="flex flex-wrap gap-6 self-center mt-12 max-w-full w-full md:w-[606px] max-md:mt-10">
             <label htmlFor="email" className="sr-only">
-              Your email address!
+              Your email address
             </label>
             <input
               type="email"
