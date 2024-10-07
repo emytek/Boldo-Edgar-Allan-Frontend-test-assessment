@@ -13,7 +13,6 @@ export default {
       gray: '#808080',
       lightGray: '#C4C4C4',
       lightBlue: '#4A6885',
-      red: 'red'
     },
   },
   plugins: [],

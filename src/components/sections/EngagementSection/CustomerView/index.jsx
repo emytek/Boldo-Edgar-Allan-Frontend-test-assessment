@@ -4,7 +4,7 @@ import WorkSummary from "./ui/WorkSummary";
 const CustomerView = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center py-8 px-4 lg:px-16">
+      <div className="w-full flex justify-center items-center lg:mt-10 py-8 px-4 lg:px-16">
         <img
           src="/images/customer-view.png"
           alt="Responsive"

@@ -1,14 +1,15 @@
 import React from "react";
 
-const Logo = () => {
+// Reusable Logo Component
+const Logo = ({ logoSrc, altText, textColor, companyName }) => {
   return (
     <div className="flex gap-3 self-start mt-1.5 items-center">
       <div className="flex flex-col items-center">
-        <img src="/icons/logo-shape.png" alt="Logo" className="pt-5"/>
-        <div className="flex shrink-0 rounded-none bg-sky-950 h-[18px]" />
+        <img src={logoSrc} alt={altText} className="pt-5" />
+        <div className="flex shrink-0 rounded-none h-[18px]" />
       </div>
-      <div className="text-5xl font-bold leading-none basis-auto text-neutral">
-        Boldo
+      <div className={`text-4xl lg:text-5xl font-bold leading-none basis-auto ${textColor}`}>
+        {companyName}
       </div>
     </div>
   );

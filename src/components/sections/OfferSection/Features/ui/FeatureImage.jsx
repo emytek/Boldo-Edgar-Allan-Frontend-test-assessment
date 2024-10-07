@@ -6,7 +6,7 @@ const FeatureImage = ({ src }) => {
       <img
         src={src}
         alt="Outer Image"
-        className="object-cover w-full h-auto rounded-lg "
+        className="object-cover w-full h-auto rounded-lg"
       />
     </div>
   );

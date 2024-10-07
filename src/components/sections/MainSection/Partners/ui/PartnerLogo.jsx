@@ -10,9 +10,6 @@ const PartnerLogo = ({ name, type, src, index }) => {
       case 1: 
       case 4: 
         return 'opacity-40';
-    //   case 2: // Second pair
-    //   case 5: // Fifth pair
-    //     return 'opacity-70'; // Faint opacity
       default:
         return 'opacity-100'; // Default full opacity for the other pairs
     }
@@ -24,7 +21,7 @@ const PartnerLogo = ({ name, type, src, index }) => {
       {/* Render image or text based on the 'type' */}
       <img src={src} alt={name} className="object-cover" />
       <div className={`text-neutral font-bold ${name === 'Presto' || name === 'Pres' ? 'text-3xl' : 'text-4xl'}`}>
-            {name}
+        {name}
       </div>
 
     </div>

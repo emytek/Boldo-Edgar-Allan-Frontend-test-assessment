@@ -17,7 +17,7 @@ export const FeatureContent = ({ title, items, buttonText }) => {
         </div>
       </div>
       {buttonText && (
-        <button className="gap-2 self-start px-14 py-4 mt-14 text-xl font-bold leading-snug text-white border-2 border-solid bg-sky-950 border-sky-950 rounded-[56px] max-md:px-5 max-md:mt-10">
+        <button  className="gap-2 self-start px-14 py-4 mt-14 text-xl font-bold leading-snug text-white border-2 border-solid bg-sky-950 border-sky-950 rounded-[56px] max-md:px-5 max-md:mt-10 transition-transform duration-700 ease-out transform hover:scale-105 hover:bg-sky-900 hover:shadow-lg active:scale-95 animate-fade-in-up">
           {buttonText}
         </button>
       )}
